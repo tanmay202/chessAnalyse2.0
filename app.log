@@ -1,0 +1,190 @@
+2026-09-04 20:32:20,962 - chess_vision_ai - WARNING - Invalid FEN string: invalid_fen_string (expected 8 rows in position part of fen: 'invalid_fen_string')
+2026-09-04 20:32:20,963 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-09-04 20:53:25,098 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-09-04 20:53:25,099 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1
+2026-09-04 20:53:25,099 - chess_vision_ai - WARNING - Invalid FEN string: invalid_fen_string (expected 8 rows in position part of fen: 'invalid_fen_string')
+2026-09-04 20:53:25,099 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-10 23:29:24,490 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-10 23:29:24,491 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:29:24,491 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:29:24,492 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-10 23:29:24,492 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:29:24,492 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:29:24,505 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:29:24,506 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-10 23:29:24,506 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-10 23:30:06,588 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-10 23:30:06,589 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:30:06,589 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:30:06,589 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-10 23:30:06,589 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:30:06,589 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:30:06,595 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:30:06,595 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-10 23:30:06,596 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-10 23:34:44,453 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-10 23:34:46,267 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-10 23:35:12,839 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-10 23:35:14,689 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-10 23:35:43,315 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-10 23:35:44,010 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-10 23:36:05,155 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-10 23:36:05,838 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-10 23:39:15,839 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-10 23:39:15,840 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:15,840 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:15,841 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-10 23:39:15,841 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:15,842 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:15,853 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:15,853 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-10 23:39:15,854 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-10 23:39:16,439 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-10 23:39:17,119 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-10 23:39:45,217 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-10 23:39:45,218 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:45,218 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:45,219 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-10 23:39:45,220 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:45,220 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:45,232 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:39:45,233 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-10 23:39:45,233 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-10 23:39:45,889 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-10 23:39:46,652 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-10 23:40:09,700 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-10 23:40:09,701 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:40:09,701 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:40:09,701 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-10 23:40:09,701 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:40:09,702 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:40:09,709 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-10 23:40:09,710 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-10 23:40:09,710 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-10 23:40:10,158 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-10 23:40:10,622 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-10 23:42:45,584 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 12:16:16,488 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 12:25:53,106 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-11 12:25:53,106 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:25:53,106 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:25:53,107 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-11 12:25:53,107 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:25:53,107 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:25:53,122 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:25:53,122 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-11 12:25:53,122 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-11 12:25:53,540 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 12:25:54,009 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 12:33:10,075 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 12:33:12,522 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 12:36:25,723 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 12:36:42,118 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-11 12:36:42,118 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:36:42,118 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:36:42,119 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-11 12:36:42,119 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:36:42,119 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:36:42,135 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 12:36:42,135 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-11 12:36:42,135 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-11 12:36:42,619 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 12:36:43,224 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 13:00:18,745 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 13:00:34,283 - chess_vision_ai - ERROR - Review error: 'score'
+Traceback (most recent call last):
+  File "D:\MCA\SEM3\chess\src\web\app.py", line 106, in review_game_endpoint
+    result = reviewer_instance.review_game(pgn_text, depth=depth)
+  File "D:\MCA\SEM3\chess\src\review\reviewer.py", line 217, in review_game
+    best_eval_white, best_mate = self._eval_to_pawn_score(top_line["score"], pov_white=True)
+                                                          ~~~~~~~~^^^^^^^^^
+KeyError: 'score'
+2026-10-11 13:00:37,820 - chess_vision_ai - ERROR - Review error: 'score'
+Traceback (most recent call last):
+  File "D:\MCA\SEM3\chess\src\web\app.py", line 106, in review_game_endpoint
+    result = reviewer_instance.review_game(pgn_text, depth=depth)
+  File "D:\MCA\SEM3\chess\src\review\reviewer.py", line 217, in review_game
+    best_eval_white, best_mate = self._eval_to_pawn_score(top_line["score"], pov_white=True)
+                                                          ~~~~~~~~^^^^^^^^^
+KeyError: 'score'
+2026-10-11 13:16:51,209 - chess_vision_ai - ERROR - Review error: 'score'
+Traceback (most recent call last):
+  File "D:\MCA\SEM3\chess\src\web\app.py", line 106, in review_game_endpoint
+    result = reviewer_instance.review_game(pgn_text, depth=depth)
+  File "D:\MCA\SEM3\chess\src\review\reviewer.py", line 217, in review_game
+    best_eval_white, best_mate = self._eval_to_pawn_score(top_line["score"], pov_white=True)
+                                                          ~~~~~~~~^^^^^^^^^
+KeyError: 'score'
+2026-10-11 13:25:33,767 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-11 13:25:33,768 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 13:25:33,769 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 13:25:33,770 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-11 13:25:33,771 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 13:25:33,771 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 13:25:33,791 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 13:25:33,791 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-11 13:25:33,792 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-11 13:25:34,251 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 13:25:34,871 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 23:27:05,866 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:28:26,474 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:28:58,026 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:29:30,523 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:30:10,617 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:30:11,072 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 23:30:18,013 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:31:35,083 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:31:35,633 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 23:31:43,116 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:31:43,399 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 23:32:11,798 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-11 23:32:11,799 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:11,799 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:11,800 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-11 23:32:11,800 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:11,800 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:11,818 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:11,818 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-11 23:32:11,818 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-11 23:32:12,235 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:32:12,720 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 23:32:46,268 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-11 23:32:46,268 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:46,268 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:46,269 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-11 23:32:46,269 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:46,269 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:46,277 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-11 23:32:46,277 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-11 23:32:46,278 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-11 23:32:46,709 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:32:47,118 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-11 23:36:14,453 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:52:24,348 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-11 23:52:24,351 - chess_vision_ai - ERROR - Review error: 
+Traceback (most recent call last):
+  File "D:\MCA\SEM3\chess\src\web\app.py", line 119, in review_game_endpoint
+    result = reviewer_instance.review_game(pgn_text, depth=depth)
+  File "D:\MCA\SEM3\chess\src\review\reviewer.py", line 279, in review_game
+    info = self.engine.analyse(board_before, limit, multipv=3)
+  File "D:\MCA\SEM3\chess\.venv\Lib\site-packages\chess\engine.py", line 2994, in analyse
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\tanma\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 454, in result
+    raise CancelledError()
+concurrent.futures._base.CancelledError
+2026-10-12 00:01:05,757 - chess_vision_ai - WARNING - Invalid FEN string: garbage (expected 8 rows in position part of fen: 'garbage')
+2026-10-12 00:01:05,757 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-12 00:01:05,758 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-12 00:01:05,758 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+2026-10-12 00:01:05,758 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-12 00:01:05,759 - chess_vision_ai - INFO - New stable position detected: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-12 00:01:05,768 - chess_vision_ai - WARNING - Illegal move e1e5 for position rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+2026-10-12 00:01:05,768 - chess_vision_ai - WARNING - Invalid FEN string: not_a_fen (expected 8 rows in position part of fen: 'not_a_fen')
+2026-10-12 00:01:05,768 - chess_vision_ai - WARNING - Invalid FEN string: 8/8/8/8/8/8/8/8/8 w KQkq - 0 1 (expected 8 rows in position part of fen: '8/8/8/8/8/8/8/8/8')
+2026-10-12 00:01:06,149 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-12 00:01:06,588 - chess_vision_ai - INFO - Stockfish engine stopped.
+2026-10-12 00:01:42,965 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-12 08:38:53,718 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-12 08:50:13,265 - chess_vision_ai - INFO - Stockfish engine started for Game Review.
+2026-10-12 13:01:20,549 - chess_vision_ai - INFO - Stockfish engine started for Game Review.

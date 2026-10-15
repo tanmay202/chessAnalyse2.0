@@ -1,0 +1,13 @@
+[Event "Casual Game"]
+[Site "Online"]
+[Date "2026.03.15"]
+[Round "1"]
+[White "Player1"]
+[Black "Player2"]
+[Result "1-0"]
+[WhiteElo "1350"]
+[BlackElo "1320"]
+[ECO "C20"]
+[Opening "King's Pawn Game"]
+
+1. e4 e5 2. Qh5 Nc6 3. Bc4 Nf6 4. Qxf7# 1-0

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.idea/
+.vscode/
+
+# Large engine and executable files
+stockfish-windows-x86-64-avx2.exe
+s18.exe
+
+*.exe

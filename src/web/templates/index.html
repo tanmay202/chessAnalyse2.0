@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Review - Chess.com Clone</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-icon">♟</div>
+      <span class="brand-title">Chess.com</span>
+      <span class="brand-badge">Game Review</span>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-secondary" id="btnSampleGames">📁 Sample Games</button>
+      <button class="btn btn-primary" id="btnNewReview">➕ New Review</button>
+      <button class="btn btn-secondary" id="btnExportPgn">📥 Export PGN</button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-container">
+
+    <!-- Left Pane: Board Area -->
+    <section class="board-area">
+      <!-- Eval Bar -->
+      <div class="eval-bar-container">
+        <div class="eval-bar-fill" id="evalFill"></div>
+        <div class="eval-bar-label bottom-label" id="evalLabel">0.0</div>
+      </div>
+
+      <!-- Chessboard & Controls -->
+      <div class="board-wrapper">
+        <div class="board-container" id="boardContainer">
+          <div class="board-grid" id="boardGrid"></div>
+          <svg class="arrows-overlay" id="arrowsSvg" width="560" height="560"></svg>
+        </div>
+
+        <!-- Board Playback Controls -->
+        <div class="board-controls">
+          <div class="nav-buttons">
+            <button class="ctrl-btn" id="btnFirst" title="First Move (Home)">|&lt;</button>
+            <button class="ctrl-btn" id="btnPrev" title="Previous Move (Left Arrow)">&lt;</button>
+            <button class="ctrl-btn" id="btnPlay" title="Autoplay (Space)">▶</button>
+            <button class="ctrl-btn" id="btnNext" title="Next Move (Right Arrow)">&gt;</button>
+            <button class="ctrl-btn" id="btnLast" title="Last Move (End)">&gt;|</button>
+          </div>
+
+          <div style="display:flex; gap:8px;">
+            <button class="btn btn-secondary" id="btnPrevKey" title="Jump to previous blunder or key moment">⏮ Key</button>
+            <button class="btn btn-secondary" id="btnNextKey" title="Jump to next blunder or key moment">Key ⏭</button>
+            <button class="btn btn-secondary" id="btnFlip" title="Flip Board">🔄 Flip</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Pane: Game Review & Analysis Dashboard -->
+    <section class="review-panel">
+
+      <!-- Game Info Card -->
+      <div class="game-info-card">
+        <div>
+          <div class="game-title" id="gameTitle">Paul Morphy vs Duke Karl</div>
+          <div class="game-opening" id="gameOpening">C41 • Philidor Defense</div>
+        </div>
+        <div class="game-result-pill" id="gameResult">1-0</div>
+      </div>
+
+      <!-- Player Accuracy & Ratings Card -->
+      <div class="players-card">
+        <!-- White Player -->
+        <div class="player-box">
+          <div class="player-avatar white-avatar">W</div>
+          <div class="player-details">
+            <div class="player-name" id="whiteName">White</div>
+            <div class="player-rating-meta" id="whiteRating">Rating: 2500</div>
+            <div class="perf-elo-pill" id="whitePerfElo">~2300 Elo</div>
+          </div>
+          <div class="accuracy-dial">
+            <div class="accuracy-number" id="whiteAccuracy">94.5%</div>
+            <div class="accuracy-label">Accuracy</div>
+          </div>
+        </div>
+
+        <!-- Black Player -->
+        <div class="player-box">
+          <div class="player-avatar black-avatar">B</div>
+          <div class="player-details">
+            <div class="player-name" id="blackName">Black</div>
+            <div class="player-rating-meta" id="blackRating">Rating: 2100</div>
+            <div class="perf-elo-pill" id="blackPerfElo">~2225 Elo</div>
+          </div>
+          <div class="accuracy-dial">
+            <div class="accuracy-number" id="blackAccuracy" style="color:#a8c484;">92.2%</div>
+            <div class="accuracy-label">Accuracy</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabs Navigation -->
+      <div class="tabs-nav">
+        <button class="tab-btn active" data-tab="tabReview">Review</button>
+        <button class="tab-btn" data-tab="tabMoves">Moves</button>
+      </div>
+
+      <!-- TAB 1: REVIEW DASHBOARD -->
+      <div class="tab-pane" id="tabReview">
+        <!-- Coach Commentary Card -->
+        <div class="coach-card">
+          <div class="coach-avatar">👨‍🏫</div>
+          <div class="coach-content">
+            <div class="coach-move-header">
+              <span class="coach-badge-pill" id="coachBadgePill" style="display:none;"></span>
+              <span class="coach-move-text" id="coachMoveText">Starting Position</span>
+            </div>
+            <div class="coach-speech" id="coachSpeech">
+              Welcome to Game Review! Click next or use arrow keys to step through the moves.
+            </div>
+            <div class="coach-actions">
+              <button class="btn btn-secondary" id="btnToggleArrow">Hide Best Move</button>
+              <button class="btn btn-primary" id="btnRetry" style="display:none; background:#fa412d;">🎯 Retry Mistake</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Classification Breakdown Table -->
+        <div class="breakdown-card" style="margin-top:16px;">
+          <div class="breakdown-header">
+            <span>Move Quality</span>
+            <span style="text-align:center;">White</span>
+            <span style="text-align:center;">Black</span>
+          </div>
+          <div id="breakdownBody"></div>
+        </div>
+
+        <!-- Advantage Graph -->
+        <div class="graph-card" style="margin-top:16px;">
+          <div style="font-size:12px; color:#aaa; font-weight:700; margin-bottom:6px; text-transform:uppercase;">
+            Evaluation Advantage Flow
+          </div>
+          <canvas id="evalCanvas" class="graph-canvas" width="460" height="90"></canvas>
+        </div>
+      </div>
+
+      <!-- TAB 2: MOVES LIST -->
+      <div class="tab-pane" id="tabMoves" style="display:none;">
+        <div class="movelist-card" id="moveListContainer"></div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Modal: New Review -->
+  <div class="modal-overlay" id="modalNewReview">
+    <div class="modal-content">
+      <div class="modal-title">Analyze New Game</div>
+      <textarea id="pgnInput" class="pgn-textarea" placeholder="Paste standard PGN notation here... (e.g. 1. e4 e5 2. Nf3 Nc6 3. Bc4...)"></textarea>
+      
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px;">
+        <label style="font-size:13px; color:#aaa;">Stockfish Depth:</label>
+        <select id="depthSelect" style="background:#222; color:#fff; border:1px solid #444; padding:6px 10px; border-radius:4px;">
+          <option value="10">Fast (Depth 10)</option>
+          <option value="12" selected>Standard (Depth 12)</option>
+          <option value="14">Deep (Depth 14)</option>
+          <option value="18">Thorough (Depth 18)</option>
+        </select>
+      </div>
+
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="btnCloseNewReview">Cancel</button>
+        <button class="btn btn-primary" id="btnStartReview">Start Review</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Sample Games -->
+  <div class="modal-overlay" id="modalSampleGames">
+    <div class="modal-content">
+      <div class="modal-title">Select Famous Master Game</div>
+      <div class="sample-list" id="sampleList"></div>
+      <div class="modal-actions" style="margin-top:16px;">
+        <button class="btn btn-secondary" id="btnCloseSampleGames">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/pieces.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

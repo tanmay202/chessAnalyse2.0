@@ -1,0 +1,9 @@
+opencv-python
+numpy
+mss
+python-chess
+pillow
+matplotlib
+pyyaml
+flask
+requests
