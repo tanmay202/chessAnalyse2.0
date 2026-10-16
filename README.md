@@ -99,20 +99,3 @@ To export an annotated PGN with Chess.com comments:
 ```
 
 ---
-
-## 3. Sample Games Included
-
-Famous curated master games are located in `sample_games/`:
-- `opera_game.pgn`: Paul Morphy vs Duke Karl & Count Isouard (Paris 1858) - contains the immortal queen sacrifice 16. Qb8+!! and 17. Rd8#.
-- `kasparov_topalov_1999.pgn`: Garry Kasparov vs Veselin Topalov - "Kasparov's Immortal" with 24. Rxd4!!
-- `blunder_game.pgn`: Quick casual game demonstrating blunders and checkmate.
-
----
-
-## 4. Running Automated Tests
-
-All tests (56 automated unit and integration tests) can be run with:
-```bash
-.venv\Scripts\python.exe -m unittest discover tests
-```
-# chessAnalyse2.0
